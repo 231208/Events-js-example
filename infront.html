@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>just-cheak</title>
+</head>
+<body onload="window.alert('Page successfully loaded')"> <!-- Here are Pageload function -->
+    
+    <!-- This is Click Event Listner -->
+    <p>Click the following button to see the effect:</p>
+    <button id="btn">Click Event</button>
+    <p id="demo"></p>
+
+    <!-- This is onClick event -->
+    <button onclick="document.getElementById('dates').innerHTML=Date()">Time</button>
+    <p id="dates"></p>
+
+    <!-- This is onMouseOver event Listner -->
+    <button onmouseover="document.getElementById('hello').innerHTML=Date()">Over</button>
+    <p id="hello"></p>
+
+    <!-- This is mouseout Listner -->
+    <button onmouseleave="document.getElementById('leavel').innerHTML = Date()">OnMouseLeave</button>
+    <p id="leavel"></p>
+
+    <!-- This is click event Listner to show center alert box -->
+    <p>This is an example of adding multiple events to the same element</p>
+    <p>click the following button to see the effect</p>
+    <button id="mybtn">Click Me</button>
+
+    <p id="mypara1"></p>
+    <p id="mypara2"></p>
+
+
+    <!-- if i click btn and change his style -->
+    <p>Click this StyleBtn and change this button style</p>
+    <button id="stylebtn">stylebtn</button>
+    <p id="changepara"></p>
+
+
+    <!-- Link Script js -->
+    <script src="script.js"></script>
+</body>
+</html>
